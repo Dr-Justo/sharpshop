@@ -1,0 +1,90 @@
+#trending_products {
+  padding: 5rem 2rem;
+
+  @media screen and (max-width: 800px) {
+    padding: 5rem 1rem;
+  }
+
+  .trending_products_container {
+    max-width: 1500px;
+    margin: auto;
+
+    .trending_products_items {
+      margin: 1rem 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 200px));
+      justify-content: start;
+      grid-column-gap: 20px;
+      grid-row-gap: 40px;
+
+      @media screen and (max-width: 800px) {
+        // grid-template-columns: repeat(auto-fill, minmax(260px, 50px));
+        justify-content: start;
+        grid-column-gap: 20px;
+      }
+
+      .trending_products_item {
+        padding: 1rem;
+        border: 1px solid lightgray;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 10px;
+
+        .trending_products_item_image {
+          margin-bottom: 1rem;
+          img {
+            // height: 160px;
+            height: 120px;
+            width: 100%;
+
+            @media screen and (max-width: 800px) {
+              height: 100px;
+            }
+          }
+        }
+
+        .trending_products_item_content {
+          display: flex;
+          flex-direction: column;
+          align-self: start;
+          width: 100%;
+
+          h1 {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            font-weight: 500;
+          }
+
+          .trending_products_item_content_category {
+            display: flex;
+            align-self: flex-start;
+            padding: 0.3rem 0.5rem;
+            background-color: rgb(15, 23, 42);
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+            border-radius: 10px;
+
+            span {
+              font-size: 0.8rem;
+              color: white;
+              border-radius: 0.7rem;
+            }
+
+            svg {
+              margin-right: 0.4rem;
+              width: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}

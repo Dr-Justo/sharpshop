@@ -1,0 +1,341 @@
+#products_banner {
+  .products_banner_container {
+    max-width: 1500px;
+    margin: auto;
+    padding: 0 1rem;
+
+    .t_shirt_bannar {
+      overflow: hidden;
+      margin-bottom: 5rem;
+
+      @media screen and (max-width: 800px) {
+        margin-bottom: 2rem;
+      }
+
+      background: linear-gradient(
+          123.35deg,
+          #ebf3d0,
+          rgba(235, 243, 208, 0) 18.4%
+        ),
+        radial-gradient(
+          29.9% 70.94% at 44.25%,
+          at 86.96%,
+          #f02af0 0,
+          rgba(220, 141, 220, 0) 100%
+        ),
+        radial-gradient(
+          33.83% 53.57% at 35.87%,
+          at 100%,
+          #bc11bc 0,
+          rgba(220, 141, 220, 0) 100%
+        ),
+        radial-gradient(
+          42.66% 49.72% at 45.56%,
+          at 44.65%,
+          #cbadeb 0,
+          rgba(194, 166, 241, 0) 100%
+        ),
+        linear-gradient(
+          134.59deg,
+          #e32ef2 20.63%,
+          rgba(205, 249, 232, 0) 47.84%
+        ),
+        linear-gradient(
+          216.44deg,
+          rgba(192, 169, 240, 0) -16.52%,
+          #c0a9f0 -1.04%,
+          rgba(192, 169, 240, 0) 16.99%
+        ),
+        linear-gradient(
+          128.53deg,
+          rgba(192, 169, 240, 0) 28.63%,
+          #c0a9f0 38.5%,
+          rgba(192, 169, 240, 0) 50.26%
+        ),
+        radial-gradient(
+          40.75% 97.37% at 90.75%,
+          at 40.15%,
+          rgba(255, 0, 77, 0.87) 0,
+          rgba(255, 0, 77, 0.76) 34.46%,
+          rgba(255, 78, 78, 0.86) 69.5%,
+          rgba(250, 0, 195, 0) 100%
+        ),
+        linear-gradient(0deg, #c2a6f1, #c2a6f1);
+      background: linear-gradient(
+          123.35deg,
+          #ebf3d0,
+          rgba(235, 243, 208, 0) 18.4%
+        ),
+        radial-gradient(
+          29.9% 70.94% at 44.25% 86.96%,
+          #f02af0 0,
+          rgba(220, 141, 220, 0) 100%
+        ),
+        radial-gradient(
+          33.83% 53.57% at 35.87% 100%,
+          #bc11bc 0,
+          rgba(220, 141, 220, 0) 100%
+        ),
+        radial-gradient(
+          42.66% 49.72% at 45.56% 44.65%,
+          #cbadeb 0,
+          rgba(194, 166, 241, 0) 100%
+        ),
+        linear-gradient(
+          134.59deg,
+          #e32ef2 20.63%,
+          rgba(205, 249, 232, 0) 47.84%
+        ),
+        linear-gradient(
+          216.44deg,
+          rgba(192, 169, 240, 0) -16.52%,
+          #c0a9f0 -1.04%,
+          rgba(192, 169, 240, 0) 16.99%
+        ),
+        linear-gradient(
+          128.53deg,
+          rgba(192, 169, 240, 0) 28.63%,
+          #c0a9f0 38.5%,
+          rgba(192, 169, 240, 0) 50.26%
+        ),
+        radial-gradient(
+          40.75% 97.37% at 90.75% 40.15%,
+          rgba(255, 0, 77, 0.87) 0,
+          rgba(255, 0, 77, 0.76) 34.46%,
+          rgba(255, 78, 78, 0.86) 69.5%,
+          rgba(250, 0, 195, 0) 100%
+        ),
+        linear-gradient(0deg, #c2a6f1, #c2a6f1);
+
+      display: flex;
+      align-items: center;
+      padding: 2rem 0;
+      height: 300px;
+
+      @media screen and (max-width: 800px) {
+        height: 100%;
+        flex-direction: column;
+        align-items: start;
+      }
+
+      .t_shirt_bannar_text_content {
+        width: 70%;
+        padding: 0 1rem;
+
+        @media screen and (max-width: 800px) {
+          width: 100%;
+        }
+
+        h1 {
+          margin-bottom: 0.1rem;
+        }
+
+        p {
+          margin-bottom: 1rem;
+          font-size: 0.9rem;
+        }
+
+        a {
+          text-decoration: none;
+          color: black;
+          background: white;
+          padding: 0.5rem 1rem;
+          border-radius: 10px;
+          transition: 0.5s all linear;
+
+          @media screen and (max-width: 800px) {
+            padding: 0.4rem 0.5rem;
+            font-size: 0.9rem;
+          }
+
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+      }
+
+      img {
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+
+        @media screen and (max-width: 800px) {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+#products_banner {
+  .products_banner_container {
+    max-width: 1500px;
+    margin: auto;
+
+    .womens_dress_banner {
+      overflow: hidden;
+      margin-bottom: 2rem;
+
+      @media screen and (max-width: 800px) {
+        margin-bottom: 1rem;
+      }
+
+      padding: 2rem 0;
+
+      @media screen and (max-width: 800px) {
+        padding: 2rem 0;
+      }
+
+      background: linear-gradient(
+          123.35deg,
+          #ebf3d0,
+          rgba(235, 243, 208, 0) 18.4%
+        ),
+        radial-gradient(
+          29.9% 70.94% at 44.25%,
+          at 86.96%,
+          #f02af0 0,
+          rgba(220, 141, 220, 0) 100%
+        ),
+        radial-gradient(
+          33.83% 53.57% at 35.87%,
+          at 100%,
+          #bc11bc 0,
+          rgba(220, 141, 220, 0) 100%
+        ),
+        radial-gradient(
+          42.66% 49.72% at 45.56%,
+          at 44.65%,
+          #cbadeb 0,
+          rgba(194, 166, 241, 0) 100%
+        ),
+        linear-gradient(
+          134.59deg,
+          #e32ef2 20.63%,
+          rgba(205, 249, 232, 0) 47.84%
+        ),
+        linear-gradient(
+          216.44deg,
+          rgba(192, 169, 240, 0) -16.52%,
+          #c0a9f0 -1.04%,
+          rgba(192, 169, 240, 0) 16.99%
+        ),
+        linear-gradient(
+          128.53deg,
+          rgba(192, 169, 240, 0) 28.63%,
+          #c0a9f0 38.5%,
+          rgba(192, 169, 240, 0) 50.26%
+        ),
+        radial-gradient(
+          40.75% 97.37% at 90.75%,
+          at 40.15%,
+          rgba(255, 0, 77, 0.87) 0,
+          rgba(255, 0, 77, 0.76) 34.46%,
+          rgba(255, 78, 78, 0.86) 69.5%,
+          rgba(250, 0, 195, 0) 100%
+        ),
+        linear-gradient(0deg, #c2a6f1, #c2a6f1);
+      background: linear-gradient(
+          123.35deg,
+          #ebf3d0,
+          rgba(235, 243, 208, 0) 18.4%
+        ),
+        radial-gradient(
+          29.9% 70.94% at 44.25% 86.96%,
+          #f02af0 0,
+          rgba(220, 141, 220, 0) 100%
+        ),
+        radial-gradient(
+          33.83% 53.57% at 35.87% 100%,
+          #bc11bc 0,
+          rgba(220, 141, 220, 0) 100%
+        ),
+        radial-gradient(
+          42.66% 49.72% at 45.56% 44.65%,
+          #cbadeb 0,
+          rgba(194, 166, 241, 0) 100%
+        ),
+        linear-gradient(
+          134.59deg,
+          #e32ef2 20.63%,
+          rgba(205, 249, 232, 0) 47.84%
+        ),
+        linear-gradient(
+          216.44deg,
+          rgba(192, 169, 240, 0) -16.52%,
+          #c0a9f0 -1.04%,
+          rgba(192, 169, 240, 0) 16.99%
+        ),
+        linear-gradient(
+          128.53deg,
+          rgba(192, 169, 240, 0) 28.63%,
+          #c0a9f0 38.5%,
+          rgba(192, 169, 240, 0) 50.26%
+        ),
+        radial-gradient(
+          40.75% 97.37% at 90.75% 40.15%,
+          rgba(255, 0, 77, 0.87) 0,
+          rgba(255, 0, 77, 0.76) 34.46%,
+          rgba(255, 78, 78, 0.86) 69.5%,
+          rgba(250, 0, 195, 0) 100%
+        ),
+        linear-gradient(0deg, #c2a6f1, #c2a6f1);
+
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      height: 300px;
+
+      @media screen and (max-width: 800px) {
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+      }
+
+      .womens_dress_banner_text_content {
+        width: 100%;
+        padding: 0 1rem;
+
+        h1 {
+          margin-bottom: 0.1rem;
+        }
+
+        p {
+          margin-bottom: 1rem;
+
+          @media screen and (max-width: 800px) {
+            font-size: 0.9rem;
+          }
+        }
+
+        a {
+          text-decoration: none;
+          color: black;
+          background: white;
+          padding: 0.5rem 1rem;
+          border-radius: 10px;
+          transition: 0.5s all linear;
+
+          @media screen and (max-width: 800px) {
+            padding: 0.4rem 0.5rem;
+            font-size: 0.9rem;
+          }
+
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+      }
+
+      img {
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+
+        @media screen and (max-width: 800px) {
+          display: none;
+        }
+      }
+    }
+  }
+}
