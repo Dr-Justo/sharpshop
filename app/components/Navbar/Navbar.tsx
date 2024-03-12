@@ -10,7 +10,7 @@ export default function Navbar() {
     <nav className={styles.nav}>
       <div className={styles.nav_container}>
         <div className={styles.logo}>
-          <h1>ShopXPress</h1>
+          <h1>Justine's SharpShop</h1>
         </div>
         <div className={styles.links}>
           <Link href="/">Home</Link>

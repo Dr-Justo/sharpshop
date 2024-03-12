@@ -11,8 +11,8 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'ShopXPress',
-  description: 'An ecommerce website created with 💖 by Bibarta',
+  title: 'SharpShop',
+  description: 'An ecommerce website created with 💖 by JNicolao',
 }
 
 export default function RootLayout({

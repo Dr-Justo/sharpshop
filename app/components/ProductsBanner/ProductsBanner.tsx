@@ -27,7 +27,7 @@ export default function ProductsBanner() {
         <div className={styles.womens_dress_banner}>
           <div className={styles.womens_dress_banner_text_content}>
             <h1>Women's Dresses</h1>
-            <p>Explore all the cool women-dress product's we have</p>
+            <p>Explore all the cool women's products and dresses we have</p>
             <Link
               href={'/products?category=women%27s%20clothing'}
               className="transition  border-black bg-indigo-500 flex self-start px-5 py-2 rounded-md text-white hover:bg-white hover:text-black"

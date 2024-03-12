@@ -23,10 +23,10 @@ export default function BestDeals() {
     <section id={styles.best_deals}>
       <div className={styles.best_deals_container}>
         <div className={styles.best_deals_text_content}>
-          <h1>GET THE BEST ONLINE DEALS ON YOUR INBOX</h1>
+          <h1>GET THE BEST ONLINE DEALS ON YOUR MAILBOX</h1>
           <p>
-            Signup Our Newsletter And Receive Periodic Info And Alerts On Best
-            Online Deals In Bangladesh
+            Signup for our Newsletter and receive Periodic Info And Alerts on the Best
+            Online Deals on the Internet
           </p>
           <div className={styles.best_deals_form}>
             {/* <form> */}

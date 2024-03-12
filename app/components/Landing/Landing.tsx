@@ -11,14 +11,14 @@ export default function Landing() {
         <div className={styles.landing_text_content}>
           <h1>
             Experience Shopping Like Never Before with{' '}
-            <span className={styles.shopxpress_text}>ShopXpress</span>{' '}
+            <span className={styles.shopxpress_text}>SharpShop</span>{' '}
           </h1>
           <p>
-            Welcome to ShopXpress, your one-stop destination for all your
+            Welcome to SharpShop, your one-stop destination for all your
             shopping needs. Discover the latest trends, high-quality products,
             and unbeatable deals that will leave you thrilled. From fashion and
             electronics to home essentials, we have got it all. Start your
-            journey with ShopXpress today and redefine the way you shop!
+            journey with SharpShop today and redefine the way you shop!
           </p>
           <Link href="/products">See the products</Link>
         </div>
