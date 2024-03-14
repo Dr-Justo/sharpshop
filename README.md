@@ -5,7 +5,7 @@
 SharpShop is your ultimate online shopping destination, offering a wide array of products catering to
 diverse needs. Our user-friendly interface allows seamless product exploration and filtering, enabling
 customers to effortlessly find items within their preferred price range. Additionally, users can
-conveniently add products to their carts, ensuring a hassle-free and enjoyable shopping experience
+conveniently add products to their carts, ensuring a hassle-free and enjoyable shopping experience. 
 
 ## Features
 
